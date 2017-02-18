@@ -1,0 +1,24 @@
+{
+	"__comment": [
+		"Guide: https://stylelint.io/user-guide/rules/",
+		"Rules and values: https://stylelint.io/user-guide/example-config/"
+	],
+
+	"rules": {
+		"max-nesting-depth": 2,
+		"declaration-no-important": null,
+		"indentation": ["tab", {
+			"except": ["value"]
+		}],
+		"block-no-empty": true,
+		"color-no-invalid-hex": true,
+		"comment-empty-line-before": "always",
+		"declaration-colon-space-after": "always",
+		"max-empty-lines": 2,
+		"rule-nested-empty-line-before": [ "always", {
+			"except": ["first-nested"],
+			"ignore": ["after-comment"]
+		} ],
+		"unit-whitelist": ["em", "rem", "%", "s", "px"]
+	}
+}

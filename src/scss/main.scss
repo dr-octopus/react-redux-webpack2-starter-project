@@ -1,0 +1,23 @@
+$bg-color: #2d2d2d;
+$text-color: #fff;
+$title-color: #61dafb;
+
+
+body {
+	color: $text-color;
+	font-family: sans-serif;
+	background-color: $bg-color;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	&.react {
+		color: $title-color;
+		font-size: 64px;
+		font-weight: 400;
+	}
+}
